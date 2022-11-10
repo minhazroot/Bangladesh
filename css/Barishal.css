@@ -76,7 +76,78 @@ nav ul li a:hover {
 
 
 /* head style end */
+/* all districr start */
+.all_district {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+.all_district a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: red;
+    color: green;
+    border-radius: 5px;
+
+}
+
+.all_district a:hover {
+    padding: 15px 20px;
+    background-color: green;
+    color: red;
+    border-radius: 5px;
+
+
+}
+
+
+/* all districr end */
+/* devision start*/
+.devision {
+    background-color: antiquewhite;
+}
+
+.devision img {
+
+    height: 300px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+
+
+
+}
+
+.img_ga {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.devision h3 {
+    color: red;
+    background-color: green;
+    text-align: center;
+
+}
+
+.devision strong {
+    color: green;
+    background-color: red;
+    margin-left: 15px;
+}
+
+.devision p {
+    margin: 20px;
+    color: black;
+    text-align: justify;
+
+}
+
+/* devision end */
 
 /* footer style start */
 footer {
