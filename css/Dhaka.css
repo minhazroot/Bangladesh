@@ -188,6 +188,65 @@ nav ul li a:hover {
 
 
 /* head style end */
+/* distic_contenar start */
+.distic_contenar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    margin-top: 20px;
+}
+
+.distic_contenar a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 20px;
+    color: red;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.distic_contenar a:hover {
+    padding: 15px 20px;
+    color: green;
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* distic_contenar end */
+
+/* img_glary start */
+.img_glary {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_glary img {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* img_glary end */
+
+p {
+    margin-left: 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+
 
 
 /* footer style start */
