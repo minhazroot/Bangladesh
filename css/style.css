@@ -90,8 +90,8 @@ slit style start
     border-radius: 10px;
 }
 
-.contenar {
-    background-image: url("../img/backgrount_img.jpg");
+.backgrount {
+    background-image: url("../img/flag-bangladesh.jpg");
     background-position: center;
     background-attachment: fixed;
 }
@@ -134,11 +134,34 @@ slit style end
 
 .histry_box p {
     text-align: justify;
-    color: white;
+    color: black;
 
 }
 
 /* histry of bangladesh end */
+/* video */
+.video {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-image: url("../img/map.png"); */
+}
+
+.box_video h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.video .box_video video {
+    width: 600px;
+    height: 400px;
+}
+
+/* video */
+
+
+
+
 
 /* famas parson in bangladesh start */
 .famas_contenar {
@@ -167,7 +190,11 @@ slit style end
 }
 
 /* famas parson in bangladesh end */
-
+h1 {
+    background-color: gold;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 
 
 
@@ -188,7 +215,7 @@ footer {
     color: white;
 }
 
-footer h1 {
+footer h2 {
     font-size: 24px;
     padding-top: 50px;
 }
